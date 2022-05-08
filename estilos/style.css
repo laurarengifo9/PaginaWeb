@@ -1,0 +1,235 @@
+@charset "uft-8";
+/*Documento de estilos CSS*/
+body{
+    background-color: #ffffff;
+}
+#cabecera{
+    background-color: #76D7C4;
+    height: 150px;
+    border-radius: .5em;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.navegacionPrin{
+    list-style: none;
+    background: #99a3a4;
+    padding: 0px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.navegacionPrin li a{
+    text-decoration: none;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    color: black;
+    padding: 20px;
+    display: block;
+    border-radius: .5em;
+}
+
+.navegacionPrin li{
+    display: inline-block;
+    text-align: center;
+    background-color: #a2a3a3;
+    color: black;
+}
+
+.navegacionPrin li a:hover{
+    background: #21618c;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+#name{
+    text-align: justify;
+    font-size: x-large;
+    padding: 50px;
+}
+#biografia{
+    border-radius: 9999px;
+    margin-right: 10px;
+    position:absolute;
+  		top: 80px;
+        right: 210px;
+}
+#titulo2{
+    font-size: xx-large;
+    font-weight: 100;
+}
+#titulo3{
+    font-size: xx-large;
+    font-weight: 100;
+    padding: 50px;
+}
+#contenido{
+    max-width: 90%;
+    margin: auto;
+    background-color: #ffffff;
+    min-height: 800px;
+}
+
+#contenidoPrin{
+    background-color: azure;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: .5em;
+    padding-left: 15px;
+    padding-top: 15px;
+    min-height: 500px;
+    /*border: 1px solid;
+    border-color: black;*/
+
+}
+#cuerpo{
+    font-size: x-large;
+    text-align: justify;
+    padding: 50px;
+}
+#cuerpo1{
+    font-size: x-large;
+    text-align: justify;
+    padding-left: 50px;
+    top: 120px;
+}
+#titulo{
+    text-align: center;
+    font-size: xx-large;
+    color: #154360;
+    font-weight: bold;
+    text-shadow: none;
+}
+#imagen{
+    float: right;
+    max-width: 300px;
+    margin-top: 50px;
+}
+#piePrin{
+    background-color: #76D7C4;
+    clear: both;
+    margin-top: 30px;
+    height: 150px;
+    border-radius: .5em;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    color: black;
+    font: normal 16px arial;
+}
+h3{
+    color: #154360;
+    font: normal 22px arial;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+h4{
+    color: #ffffff;
+    font: normal 20px arial;
+}
+table {
+    background-color: #ffffff;
+    text-align: left;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+  }
+  
+  th,
+  td {
+    color: #524c56;
+    font-size: 110%;
+    line-height: 105%;
+    padding: 3%;
+    text-indent: 1%;
+    text-align: left;
+    padding-right: 1rem;
+    
+  }
+  thead {
+    background-color: azure;
+    border-bottom: solid 5px #2c3e50;
+    color: #524c56;
+  }
+  
+  tr:nth-child(even) {
+    background-color: azure;
+  }
+  
+  #wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  form {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  form input,
+  textarea,
+  button {
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    outline: none;
+  }
+  
+  form button {
+    cursor: pointer;
+    background-color: #76D7C4;
+    color: #524c56;
+  }
+  
+ 
+  #formulario {
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper-contacto{
+    color:#154360;
+  }
+  .icon-text {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .icon-text-icon {
+    width: 20%;
+    padding: 4%;
+  }
+  .icon-text-text {
+    float: center;
+    width: 60%;
+
+    font-size: 100%;
+  }
+  .social {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  .social li {
+    display: inline;
+  }
+  
+  .social i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 5%;
+    color: #c3d7df;
+  }
+  
+  .social i:hover {
+    color: #f5f5f5;
+  }
+
+
